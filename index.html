@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Matt Wilkof | Music. Recovery. Transformation.</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans">
+
+  <!-- Hero -->
+  <section class="relative h-screen flex items-center justify-center bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');">
+    <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+    <div class="relative z-10 text-center max-w-2xl px-6">
+      <h1 class="text-5xl md:text-6xl font-extrabold text-white mb-6">Matt Wilkof</h1>
+      <p class="text-xl md:text-2xl mb-8">Music • Recovery • Transformation</p>
+      <a href="#contact" class="px-6 py-3 bg-red-600 hover:bg-red-700 text-white rounded-full text-lg font-semibold transition">Book a Session</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-20 px-6 bg-gray-800">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-6">About Matt</h2>
+      <p class="text-lg text-gray-300 leading-relaxed">
+        From <strong>Another Black Day</strong> to <strong>The Wilkof Project</strong>, Matt has lived a journey of sound and struggle,
+        turning pain into purpose. His music is more than performance — it's a healing process, a
+        transformative experience that resonates with anyone who's ever faced the fire and come back stronger.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-20 px-6 bg-gray-900">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-12">Studio & Services</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-6 bg-gray-800 rounded-xl shadow-lg">
+          <h3 class="text-2xl font-semibold mb-4">Recording Sessions</h3>
+          <p class="text-gray-400">High-energy, authentic recording environment where raw sound becomes powerful tracks.</p>
+        </div>
+        <div class="p-6 bg-gray-800 rounded-xl shadow-lg">
+          <h3 class="text-2xl font-semibold mb-4">Songwriting Coaching</h3>
+          <p class="text-gray-400">Guidance to unlock creativity and channel personal stories into music that matters.</p>
+        </div>
+        <div class="p-6 bg-gray-800 rounded-xl shadow-lg">
+          <h3 class="text-2xl font-semibold mb-4">Recovery Through Music</h3>
+          <p class="text-gray-400">Workshops and sessions where music becomes a tool for healing and transformation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Media -->
+  <section id="media" class="py-20 px-6 bg-gray-800">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-12">Listen & Watch</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div>
+          <iframe class="w-full h-64 rounded-lg" src="https://www.youtube.com/embed/pSlmkUUni7s" frameborder="0" allowfullscreen></iframe>
+          <p class="mt-4 text-gray-400">Another Black Day – Official Video</p>
+        </div>
+        <div>
+          <iframe class="w-full h-64 rounded-lg" src="https://open.spotify.com/embed/track/5vQTXfQ3TgHhSxM5w8XwS8" frameborder="0" allow="encrypted-media"></iframe>
+          <p class="mt-4 text-gray-400">The Wilkof Project – Have a Pocket Full of Pride</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="py-20 px-6 bg-gray-900">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-12">What People Say</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
+          <p class="italic text-gray-300">“Matt’s studio isn’t just about music, it’s about finding yourself again.”</p>
+          <span class="block mt-4 font-semibold">— Client Testimonial</span>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
+          <p class="italic text-gray-300">“His journey shows that creativity and recovery can walk hand in hand.”</p>
+          <span class="block mt-4 font-semibold">— Music Magazine</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 px-6 bg-gray-800">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-6">Get in Touch</h2>
+      <p class="mb-8 text-gray-300">Ready to create something powerful? Send a message below.</p>
+      <form name="contact" method="POST" data-netlify="true" class="space-y-6">
+        <input type="hidden" name="form-name" value="contact">
+        <input type="text" name="name" placeholder="Your Name" class="w-full p-3 rounded bg-gray-900 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-red-600">
+        <input type="email" name="email" placeholder="Your Email" class="w-full p-3 rounded bg-gray-900 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-red-600">
+        <textarea name="message" placeholder="Your Message" rows="4" class="w-full p-3 rounded bg-gray-900 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-red-600"></textarea>
+        <button type="submit" class="px-6 py-3 bg-red-600 hover:bg-red-700 text-white rounded-full text-lg font-semibold transition">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 text-center bg-gray-900 border-t border-gray-800">
+    <p class="text-gray-500 text-sm">© 2025 Matt Wilkof. Built with ♥ on Netlify.</p>
+  </footer>
+
+</body>
+</html>
